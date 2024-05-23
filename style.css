@@ -9,18 +9,18 @@
 body {
   display: flex;
   justify-content: center;
-  background: #ffffff;
+  background: #fafaf9;
 }
 .card {
   display: grid;
   width: 410px;
-  height: 400px;
+  height: 360px;
   font-family: "Sora", sans-serif;
   border-radius: 10px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 10rem;
-  background: whitesmoke;
+  background: #ffffff;
 }
 
 .texts {
@@ -49,7 +49,7 @@ button {
   border-radius: 30px;
   border: 10px;
   padding: 5px;
-  background: #883ae1;
+  background: #e6d6fc;
   color: #883ae1;
   font-weight: bold;
   font-size: 12px;
@@ -69,7 +69,8 @@ button {
 }
 
 .footer {
-  padding: 1rem;
+  padding: 0.13rem;
+  padding-top: 1rem;
   font-size: 10px;
   color: #6c727f;
 }
