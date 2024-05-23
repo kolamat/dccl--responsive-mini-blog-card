@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -12,6 +14,7 @@ body {
   display: grid;
   width: 410px;
   height: 400px;
+  font-family: "Sora", sans-serif;
   border-radius: 10px;
   margin-left: auto;
   margin-right: auto;
@@ -24,6 +27,15 @@ body {
   gap: 0.3rem;
   padding: 1rem;
   padding-top: 10px;
+}
+
+.texts h3 {
+  font-size: 18px;
+  font-family: "Sora", sans-serif;
+}
+
+.texts span {
+  font-size: 16px;
 }
 
 img {
