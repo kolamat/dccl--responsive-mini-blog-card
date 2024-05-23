@@ -3,13 +3,29 @@
   padding: 0;
 }
 
+body {
+  /* display: flex;
+  justify-content: center; */
+}
+.card {
+  display: grid;
+  width: 50px;
+  /* padding: 100px; */
+}
+
+.texts {
+  padding: 1rem;
+}
+
 img {
-  width: auto;
+  width: 350px;
   height: auto;
 }
 
-.card {
-  display: grid;
+button {
+  width: 70px;
+  border-radius: 30px;
+  border: 10px;
 }
 
 .imgDiv {
