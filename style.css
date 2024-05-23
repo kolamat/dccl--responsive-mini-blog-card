@@ -9,6 +9,7 @@
 body {
   display: flex;
   justify-content: center;
+  background: rgb(248, 240, 240);
 }
 .card {
   display: grid;
@@ -19,7 +20,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-top: 10rem;
-  background: rgb(254, 251, 251);
+  background: whitesmoke;
 }
 
 .texts {
@@ -31,11 +32,10 @@ body {
 
 .texts h3 {
   font-size: 18px;
-  font-family: "Sora", sans-serif;
 }
 
 .texts span {
-  font-size: 16px;
+  font-size: 12px;
 }
 
 img {
@@ -51,6 +51,7 @@ button {
   background: rgb(216, 175, 255);
   color: rgb(163, 65, 255);
   font-weight: bold;
+  font-size: 12px;
 }
 
 .imgDiv {
@@ -68,4 +69,5 @@ button {
 
 .footer {
   padding: 1rem;
+  font-size: 10px;
 }
