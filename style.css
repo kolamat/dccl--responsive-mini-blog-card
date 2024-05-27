@@ -21,6 +21,7 @@ body {
   margin-right: auto;
   margin-top: 10rem;
   background: #ffffff;
+  box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
 }
 
 .texts {
@@ -70,7 +71,33 @@ button {
 
 .footer {
   padding: 0.13rem;
+  padding-left: 1rem;
   padding-top: 1rem;
   font-size: 10px;
   color: #6c727f;
 }
+
+/* @media (680px) {
+} */
+
+/* .pracimage {
+  width: 150px;
+  height: 100px;
+  border-radius: 100%;
+}
+
+.pracbutton {
+  height: 50px;
+}
+
+.pracpara {
+  font-size: x-large;
+}
+
+.prac {
+  display: grid;
+  height: 10rem;
+  align-items: center;
+  gap: 15px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+} */
